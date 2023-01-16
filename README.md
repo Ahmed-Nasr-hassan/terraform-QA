@@ -2,5 +2,5 @@
 
 ## lab1
 
-![Alt text](./lab1-terraform.png?raw=true "Title")
+![Alt text](./lab1.png?raw=true "Title")
 
