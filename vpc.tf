@@ -30,7 +30,7 @@ resource "aws_route_table" "nasr-route-table" {
 
 }
 
-resource "aws_route_table_association" "a" {
+resource "aws_route_table_association" "rt-association" {
   subnet_id      = aws_subnet.nasr-subnet.id
   route_table_id = aws_route_table.nasr-route-table.id
 }
